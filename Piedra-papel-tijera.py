@@ -31,9 +31,6 @@ while True:
         else:
             print("piedra aplasta tijera! Perdiste.")
             derrotas=derrotas+1
-    elif user_action == "pistola":
-        print("Ganaste, ahora no me mates por favor tengo familia.")
-        victorias=victorias+1
     print(f"Victorias: {victorias}")
     print(f"Derrotas : {derrotas}")
     print(f"Empates: {empates}")
